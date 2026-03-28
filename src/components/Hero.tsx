@@ -54,7 +54,7 @@ export default function Hero() {
         {/* Ned mascot - visible on larger screens */}
         <div className="hidden md:block md:w-1/3 relative">
           <img
-            src="/ned-pool.svg"
+            src="/ned-pool.png"
             alt="Pool Ned - the Pool Nerds mascot"
             className="w-full max-w-[320px] drop-shadow-2xl"
           />

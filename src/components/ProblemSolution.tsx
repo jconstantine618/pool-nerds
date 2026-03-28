@@ -35,7 +35,7 @@ export default function ProblemSolution() {
         <div className="space-y-8">
           <div className="flex justify-center mb-4">
             <img
-              src="/ned-pool.svg"
+              src="/ned-pool.png"
               alt="Pool Ned"
               className="w-48 h-auto drop-shadow-lg"
             />
