@@ -2,7 +2,7 @@ import { Check, Star } from "lucide-react";
 
 const tiers = [
   {
-    name: "Freshman",
+    name: "High School",
     price: "89",
     features: [
       "Pool Care: Chemical balancing & treatment",
@@ -11,7 +11,7 @@ const tiers = [
     ],
   },
   {
-    name: "Varsity",
+    name: "College",
     price: "149",
     features: [
       "Pool Care: Chemical balancing & treatment",

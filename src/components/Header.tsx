@@ -85,13 +85,13 @@ export default function Header() {
               href="/shop"
               className="text-pool-dark font-medium hover:text-pool-accent transition"
             >
-              Shop Kits
+              Chem Class
             </a>
             <a
               href="/shop"
               className="bg-pool-accent hover:bg-pool-glow text-white font-bold px-6 py-2.5 rounded-full transition shadow-lg"
             >
-              Get Your Kit
+              Enroll Now
             </a>
           </div>
           <button
@@ -122,13 +122,13 @@ export default function Header() {
               Pool Calculator
             </a>
             <a href="/shop" className="block py-2 text-pool-dark font-medium">
-              Shop Kits
+              Chem Class
             </a>
             <a
               href="/shop"
               className="block text-center bg-pool-accent text-white font-bold px-6 py-2.5 rounded-full"
             >
-              Get Your Kit
+              Enroll Now
             </a>
           </div>
         )}

@@ -11,8 +11,8 @@ const services = [
 ];
 
 const packages = [
-  { name: "Freshman", included: 3 },
-  { name: "Varsity", included: 5 },
+  { name: "High School", included: 3 },
+  { name: "College", included: 5 },
   { name: "PhD", included: 7, best: true },
 ];
 

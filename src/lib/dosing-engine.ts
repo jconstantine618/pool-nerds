@@ -108,9 +108,9 @@ function scaleChemicals(
 // ─── Tier Definitions ──────────────────────────────────────────────
 
 const TIER_CONFIG = {
-  small: { label: "Small Pool Kit", maxGallons: 10000, price: 49 },
-  medium: { label: "Medium Pool Kit", maxGallons: 20000, price: 79 },
-  large: { label: "Large Pool Kit", maxGallons: 30000, price: 109 },
+  small: { label: "High School", maxGallons: 10000, price: 49 },
+  medium: { label: "College", maxGallons: 20000, price: 79 },
+  large: { label: "PhD", maxGallons: 30000, price: 109 },
 } as const;
 
 export function buildMonthlyKit(gallons: number): MonthlyKit {
@@ -140,7 +140,7 @@ export function getAllTiers(): MonthlyKit[] {
 // ─── Price Range Helper ────────────────────────────────────────────
 
 export const PRICE_RANGES = {
-  small: { min: 49, max: 59, label: "Small (~10k gal)" },
-  medium: { min: 79, max: 89, label: "Medium (~20k gal)" },
-  large: { min: 109, max: 129, label: "Large (~30k+ gal)" },
+  small: { min: 49, max: 59, label: "High School (~10k gal)" },
+  medium: { min: 79, max: 89, label: "College (~20k gal)" },
+  large: { min: 109, max: 129, label: "PhD (~30k+ gal)" },
 } as const;

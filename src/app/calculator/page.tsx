@@ -206,7 +206,7 @@ export default function CalculatorPage() {
                     href="/shop"
                     className="inline-flex items-center gap-2 bg-pool-accent hover:bg-pool-glow text-white font-bold text-lg px-10 py-4 rounded-full shadow-xl transition"
                   >
-                    Subscribe to This Kit
+                    Enroll in Chem Class
                     <ArrowRight size={20} />
                   </a>
                   <p className="text-gray-400 text-sm mt-3">

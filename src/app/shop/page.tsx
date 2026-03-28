@@ -27,9 +27,9 @@ const TIER_COLORS = {
 };
 
 const TIER_ICONS = {
-  small: "🧪",
-  medium: "⚗️",
-  large: "🔬",
+  small: "🎒",
+  medium: "🎓",
+  large: "🧑‍🔬",
 };
 
 export default function ShopPage() {
@@ -44,15 +44,16 @@ export default function ShopPage() {
           {/* Header */}
           <div className="text-center mb-14">
             <p className="text-pool-accent font-bold uppercase tracking-wider text-sm mb-2">
-              Monthly Chemical Kits
+              Enroll in Chem Class
             </p>
             <h1 className="text-4xl md:text-5xl font-extrabold text-pool-dark mb-4">
-              Pool chemistry,{" "}
-              <span className="text-pool-accent">delivered.</span>
+              Chem Class is{" "}
+              <span className="text-pool-accent">in session.</span>
             </h1>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">
               Pre-measured chemical kits engineered for your exact pool size.
-              Just pour, test, and swim. Ships free every month.
+              Pick your grade level, and let the nerds handle the rest.
+              Ships free every month.
             </p>
           </div>
 
@@ -124,7 +125,7 @@ function TierCard({
   expanded: boolean;
   onToggle: () => void;
 }) {
-  const isBest = kit.tier === "medium";
+  const isBest = kit.tier === "large";
   const colors = TIER_COLORS[kit.tier];
   const priceRange = PRICE_RANGES[kit.tier];
   const emoji = TIER_ICONS[kit.tier];
